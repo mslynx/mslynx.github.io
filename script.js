@@ -12,7 +12,7 @@ function changeTab(tab) {
         case 'inicio':
             conteudo.innerHTML = `
                 <h1>Página Inicial</h1>
-                <p>Este é o conteúdo da página Inicial.</p>`;
+                <p>Este é o conteúdo da página Inicial!</p>`;
             break;
         case 'videos':
             conteudo.innerHTML = `
