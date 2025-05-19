@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script>
+    <script id="mainScript">
         const path = window.location.pathname;
         if (path.includes('/loaderVersion/0.86')) {
             document.write('OK');
@@ -9,6 +9,7 @@
             // Página realmente não existe
             document.write('NO');
         }
+        document.getElementById('mainScript');
     </script>
 </head>
 <body>
